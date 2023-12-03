@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(187, 182, 182);
+}
+.boards{
+    font-family: 'Nova Square', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    
+}
+#txte{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+    height: 60px;
+    margin-top: -20px;
+    box-shadow: rgb(22, 22, 22) 1px 1px 2px;
+}
+h3{
+    padding-top: 15px;
+}
+.board{
+    background-color: rgb(172, 170, 170);
+    border-radius: 10px;
+    box-shadow: rgb(43, 42, 42) 2px 2px 4px;    
+}
+.card{
+    background-color: rgb(151, 151, 151);
+    border-radius: 5px;
+    box-shadow: rgb(59, 59, 59) 1px 1px 2px;
+    height: 200px;
+    width: auto; 
+    margin: 40px 10px ;
+    padding: 16px;
+}
+.status1{
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    height: 8px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    
+}
+.status2{
+    background-color: rgb(0, 81, 255);
+    width: 30px;
+    height: 8px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    
+}
+.status3{
+    background-color: rgb(21, 255, 0);
+    width: 30px;
+    height: 8px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    
+}
+.dropzone{
+    width: 400px;
+    height:1800px;
+}
+.over{
+    background-color: rgba(75, 223, 17, 0.555);
+
+    
+}
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+}
